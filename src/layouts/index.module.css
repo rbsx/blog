@@ -1,0 +1,33 @@
+.defaultFontSettings {
+    font-family: '-apple-system','BlinkMacSystemFont',
+    'Segoe UI','Roboto','Oxygen','Ubuntu',
+    'Cantarell', 'Fira Sans','Droid Sans',
+    'Helvetica Neue','sans-serif';
+    color: #000;
+}
+
+.wrap {
+    /* position: relative; */
+}
+
+.page {
+    display: flex;
+    margin: 0 10px;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
+}
+
+
+.main {
+    display: inline-block;
+    display: flex;
+    
+    vertical-align: top;
+    text-align: left;
+
+    flex-grow: 1;
+
+    margin: auto 10% auto 5%;
+}

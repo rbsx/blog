@@ -1,0 +1,28 @@
+.defaultFontSettings {
+    font-family: '-apple-system','BlinkMacSystemFont',
+    'Segoe UI','Roboto','Oxygen','Ubuntu',
+    'Cantarell', 'Fira Sans','Droid Sans',
+    'Helvetica Neue','sans-serif';
+    color: #000;
+}
+.header {
+    text-align: center;
+    box-shadow: 0 0 40px 0 gray;
+    margin-bottom: 20px;
+    
+    padding: 5px 0;
+    
+    position: sticky;
+    top: 0;
+    background-color: #ffffffcc;
+
+}
+.brand {
+    composes: defaultFontSettings;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background-image: none;
+}
+.brand:hover {
+    color: tomato;
+}

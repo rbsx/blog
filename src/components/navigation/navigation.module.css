@@ -1,0 +1,125 @@
+.defaultFontSettings {
+    font-family: '-apple-system','BlinkMacSystemFont',
+    'Segoe UI','Roboto','Oxygen','Ubuntu',
+    'Cantarell', 'Fira Sans','Droid Sans',
+    'Helvetica Neue','sans-serif';
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+    vertical-align: top;
+    text-align: left;
+
+    font-weight: 500;
+    min-width: 200px;
+    max-width: 400px;
+    margin-left: 10px;
+
+    @media (max-width: 450px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.nav__header {
+    composes: defaultFontSettings;
+    font-size: .7rem;
+    color: #6495ed;
+}
+
+.nav__social a {
+    color: skyblue;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 5px;
+
+    border-bottom: 5px solid tomato;
+    line-height: 1rem;
+
+    transition: background-color .1s linear;
+}
+
+.nav__social a:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.nav__about, .nav__subscribe_text {
+    composes: defaultFontSettings;
+    font-size: .8rem;
+    line-height: .9rem;
+    font-weight: 300;
+    color: black;
+
+    margin-left: -15px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 5px solid skyblue;
+}
+
+.nav__subscribe_input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.nav__subscribe_input:focus {
+    outline-color: skyblue;
+}
+
+.nav__subscribe_btn {
+    composes: defaultFontSettings;
+    font-weight: 300;
+    width: 100%;
+    background-color: skyblue;
+    border: none;    
+    padding: 5px;
+    font-variant: all-small-caps;
+    box-shadow: -5px 5px 0 0 tomato;
+    transition: box-shadow .3s linear;
+}
+.nav__subscribe_btn:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px  0 0 tomato;
+}
+
+.nav__tags {
+    font-size: .8rem;
+    line-height: .8rem;
+}
+
+.nav__tags_list {
+    margin: 0;
+    line-height: .8rem;
+}
+
+.nav__tags_list li {
+    list-style: none;
+    margin: 5px;
+    background-color: skyblue;
+    display: inline-block;
+
+    transition: background-color .3s linear;
+}
+
+.nav__tags_list li:hover {
+    background-color: tomato;
+}
+
+.nav__tags_list a {
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+    display: block;
+    margin-left: 5px;
+}
+.nav__tags_amount {
+    background-color: tomato;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    display: inline-flex;
+    align-self: center;
+}
