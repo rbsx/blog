@@ -16,11 +16,11 @@ export default () =>
                 которые доверяют RBSX. Оставайтесь в курсе!
             </article>
             <div className={styles.nav__social}>
-                <a href="/">Facebook</a>
-                <a href="/">Vkontakte</a>
-                <a href="/">Twitter</a>
-                <a href="/">Github</a>
-                <a href="/">Telegram</a>
+                <a href="https://www.facebook.com/xrbsx" target="_blank" rel="noopener">Facebook</a>
+                <a href="https://vk.com/airds" target="_blank" rel="noopener">Vkontakte</a>
+                <a href="https://twitter.com/_rbsx" target="_blank" rel="noopener">Twitter</a>
+                <a href="https://github.com/" target="_blank" rel="noopener">Github</a>
+                <a href="https://t.me/rbsxx" target="_blank" rel="noopener">Telegram</a>
             </div>
         </header>
         <main className={styles.nav__subscribe}>
@@ -31,7 +31,7 @@ export default () =>
                 для разработчиков сервисов для организаторов 
                 мероприятий.
             </div>
-            <input className={styles.nav__subscribe_input} type="text" placeholder="Введите ваш e-mail" />
+            <input className={styles.nav__subscribe_input} type="text" placeholder="Введите ваш e-mail" disabled />
             <button className={styles.nav__subscribe_btn}>Подписаться</button>
         </main>
 
