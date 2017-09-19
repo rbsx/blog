@@ -1,7 +1,9 @@
 ---
 title: "Sweet Pandas Eating Sweets"
 date: "2017-08-10"
-tags: "js pandas"
+tags: 
+    - js 
+    - pandas
 ---
 
 Pandas are really sweet.

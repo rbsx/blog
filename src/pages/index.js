@@ -17,7 +17,7 @@ export default ({ data }) =>
                     <span className={styles.post__tags_icon}>
                         #
                     </span>
-                    { node.frontmatter.tags.split(' ').map( tag => 
+                    { node.frontmatter.tags.map( tag => 
                         <Link to={tag}>
                             {tag}
                         </Link>
