@@ -17,8 +17,8 @@ export default ({ data }) =>
                     <span className={styles.post__tags_icon}>
                         #
                     </span>
-                    { node.frontmatter.tags.map( tag => 
-                        <Link to={tag}>
+                    { node.frontmatter.tags.map( tag =>
+                        <Link to={`/tags/${tag}`}>
                             {tag}
                         </Link>
                     ) }

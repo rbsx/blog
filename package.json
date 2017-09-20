@@ -1,6 +1,6 @@
 {
-  "name": "RBSX blog",
-  "description": "RBSX blog poered by gatsby",
+  "name": "rbsx",
+  "description": "RBSX blog powered by gatsby",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

@@ -4,7 +4,6 @@ import styles from './tag-page.module.css'
 
 class TagRoute extends React.Component {
   render() {
-    //console.log(this.props)
     const posts = this.props.data.allMarkdownRemark.edges
     const title = 'this.props.data.site.siteMetadata.title'
     const postLinks = posts.map(post => {
